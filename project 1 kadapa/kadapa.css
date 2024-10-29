@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    width:100%;
+    display: flex;
+}
+.left{
+    height:600px;
+    width:40%;
+    background-color: #fdddce;
+}
+.left img{
+     padding-top: 115px; 
+    width:110%;
+    height:350px ;
+    align-items: end;
+}
+.right{
+    height:600px;
+    width:50%;
+    background-color: #00566d;
+    color: white;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+}
+.imga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 150px;
+
+}
+img{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 60px;
+    border-radius: 50px;
+    
+
+}
+
+
+.right fieldset{
+    height: 50px;
+    width:80%;
+    padding-left: 10px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.right fieldset input{
+    width: 90%;
+    height:30px ;
+     background-color:#00566d ;
+     border: none;
+}
+.coin{
+    display:flex;
+    flex-direction:row;
+    padding-left: 120px;
+
+}
+.or{
+    padding: 10px;
+}
+fieldset{
+    margin:auto
+}
